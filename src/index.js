@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
                 <div>
+                  <h1>Highly Proclaimed Athletes</h1>
                   <Card id={athletes[0].id} name={athletes[0].name} bio={athletes[0].bio} image={athletes[0].image} />
                   <Card id={athletes[1].id} name={athletes[1].name} bio={athletes[1].bio} image={athletes[1].image} />
                   <Card id={athletes[2].id} name={athletes[2].name} bio={athletes[2].bio} image={athletes[2].image} />

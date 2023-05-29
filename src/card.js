@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = (athlete) => {
     return (
-        <div className="dib br3 pa3 ma3 grow bw2 shadow-5"> 
+        <div id='info' className="dib br3 pa3 ma3 grow bw2 shadow-5"> 
             <img alt='LeBron James' src={athlete.image}></img>
             <div>
                 <h2>{athlete.name}</h2>
